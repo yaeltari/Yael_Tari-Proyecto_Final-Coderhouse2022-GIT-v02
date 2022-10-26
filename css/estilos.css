@@ -151,7 +151,7 @@ footer button:hover {
    text-transform: capitalize;
 }
 
-.contenedor__secciones--descripcion h1 {
+.contenedor__secciones--descripcion h2 {
    color: rgb(255, 255, 255);
 
 }
