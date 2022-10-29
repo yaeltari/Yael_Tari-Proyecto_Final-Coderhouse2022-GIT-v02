@@ -1,5 +1,5 @@
 //Colors
-$Color1: rgba(231, 227, 227, 0.849);
+$color1: rgba(231, 227, 227, 0.849);
 $color2:  rgb(117, 108, 22);
 $color3: #000;
 
@@ -9,6 +9,16 @@ $color3: #000;
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
-$font1: "'Caveat', cursive;";
-$font2: "'Oxygen', sans-serif;";
-$font3: "'Raleway', sans-serif;";
+$font1: Caveat, cursive;
+$font2: Oxygen, sans-serif;
+$font3: Raleway, sans-serif;
+
+$font-size1: 5vw;
+$font-size2: 1.5vw;
+$font-size3: 1.3vw;
+$font-size4: 2vw;
+$font-size5: 3vw;
+$font-size6: 1vw;
+
+
+

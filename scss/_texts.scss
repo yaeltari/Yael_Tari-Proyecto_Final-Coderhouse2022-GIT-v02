@@ -1,15 +1,29 @@
-.color-secundario {
-    color: $color2;
- }
- 
- footer h2, h3 {
-    color: $color2;
- }
- 
- .pincipal-carousel {
-    font-size: calc(20px + 1.8vw);
+
+ @mixin formato-texto($color,$font-family,$font-size) {
+    color: $color;
+    font-family: $font-family;
+    font-size: $font-size;
  }
 
- .secuendario-carousel {
-    font-size: calc(10px + 1vw);
+ .carousel-item {
+    h5 {
+        @include formato-texto($color2,$font1,$font-size1);
+    }
+    p {
+        @include formato-texto($color1,$font3,$font-size2);
+    }
  }
+
+ 
+footer {
+    h2 {
+        @include formato-texto($color2,$font3,$font-size5);
+    }
+    h3 {
+        @include formato-texto($color2,$font3,$font-size4);
+    }
+    p {
+        @include formato-texto($color1,$font2,$font-size6);
+    }
+}
+
