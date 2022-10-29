@@ -5,6 +5,8 @@
     font-size: $font-size;
  }
 
+
+
  .carousel-item {
     h5 {
         @include formato-texto($color2,$font1,$font-size1);
@@ -13,6 +15,21 @@
         @include formato-texto($color1,$font3,$font-size2);
     }
  }
+
+
+ #card-ayuda {
+    h5 {
+        color: $color2;
+    }
+    a {
+        color: $color2;
+        text-decoration: none;
+    }
+ }
+
+label {
+    @include formato-texto($color2,$font3,$font-size2);
+}
 
  
 footer {

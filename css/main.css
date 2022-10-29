@@ -316,6 +316,9 @@ template {
 .main {
   background-color: #000; }
 
+#card-ayuda {
+  background-color: rgba(231, 227, 227, 0.849); }
+
 #logo {
   height: 40px;
   width: 40px;
@@ -337,6 +340,18 @@ template {
 
 .carousel-item p {
   color: rgba(231, 227, 227, 0.849);
+  font-family: Raleway, sans-serif;
+  font-size: 1.5vw; }
+
+#card-ayuda h5 {
+  color: #756c16; }
+
+#card-ayuda a {
+  color: #756c16;
+  text-decoration: none; }
+
+label {
+  color: #756c16;
   font-family: Raleway, sans-serif;
   font-size: 1.5vw; }
 
