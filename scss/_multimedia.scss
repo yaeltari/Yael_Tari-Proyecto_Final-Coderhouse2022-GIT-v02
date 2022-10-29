@@ -1,0 +1,16 @@
+#logo {
+    height: 40px;
+    width:40px;
+    transition: width height border 3000ms;
+ }
+
+ #logo:hover {
+    height: 50px;
+    width:50px;
+    border: solid white;
+ }
+
+ .logo-redes {
+    height: 40px;
+    width:40px;   
+ }
