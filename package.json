@@ -1,0 +1,23 @@
+{
+  "name": "yael_tari-proyecto_final-coderhouse2022-git-v02",
+  "version": "1.0.0",
+  "description": "proyecto final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaeltari/Yael_Tari-Proyecto_Final-Coderhouse2022-GIT-v02.git"
+  },
+  "author": "Yael Tari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yaeltari/Yael_Tari-Proyecto_Final-Coderhouse2022-GIT-v02/issues"
+  },
+  "homepage": "https://github.com/yaeltari/Yael_Tari-Proyecto_Final-Coderhouse2022-GIT-v02#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}

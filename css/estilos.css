@@ -243,6 +243,13 @@ footer button:hover {
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+/*--------------------------------------------*/
+
+
+/*A continuación comienza la porción de código editada sobre las pages de Bootstrap*/
+
+
 /* CUERPO DE LA PAGINA CHEFFS */
 .bg-negropop {
    background-color: #000;
@@ -258,6 +265,69 @@ footer h2, h3 {
 
 
 #logo {
+    height: 40px;
+    width:40px;
+    transition: width height border 3000ms;
+ }
+
+ #logo:hover {
+    height: 50px;
+    width:50px;
+    border: solid white;
+ }
+
+ .logo-redes {
+    height: 40px;
+    width:40px;   
+ }
+
+ .pincipal-carousel {
+    font-size: calc(20px + 1.8vw);
+ }
+
+ .secuendario-carousel {
+    font-size: calc(10px + 1vw);
+ }
+
+ @media only screen and (max-width: 768px) {
+   /* Para que se entiendan mejor las secciones en el footer mobil*/
+   .top-border-footer {
+     border-top: dashed white;
+   }
+}
+
+
+
+
+
+
+
+/* CUERPO DE LA PAGINA FORM */
+
+
+.bg-negropop {
+   background-color: #000;
+ }
+ 
+
+ .color-secundario {
+   color: rgb(117, 108, 22);
+}
+
+footer h2, h3 {
+   color: rgb(117, 108, 22);
+}
+
+.bg-form {
+   border: solid rgb(117, 108, 22);
+   padding: 15px;
+}
+
+ .main {
+   background-color: #000;
+ }
+ 
+ #logo {
     height: 40px;
     width:40px;
     transition: width height border 3000ms;
