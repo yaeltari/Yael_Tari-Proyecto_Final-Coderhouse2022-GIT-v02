@@ -9,7 +9,7 @@
 
  .carousel-item {
     h5 {
-        @include formato-texto($color2,$font1,$font-size1);
+        @include formato-texto($color2,$font2,$font-size1);
     }
     p {
         @include formato-texto($color1,$font3,$font-size2);
