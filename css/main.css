@@ -333,6 +333,12 @@ template {
   height: 40px;
   width: 40px; }
 
+.tarjeta-basica h5 {
+  Color: #756c16; }
+
+.tarjeta-basica p {
+  font-family: Raleway, sans-serif; }
+
 .carousel-item h5 {
   color: #756c16;
   font-family: Oxygen, sans-serif;
