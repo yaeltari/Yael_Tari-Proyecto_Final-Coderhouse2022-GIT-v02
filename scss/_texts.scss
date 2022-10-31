@@ -21,7 +21,7 @@
         @include formato-texto($color2,$font2,$font-size5);
     }
     p {
-        @include formato-texto($color3,$font2,$font-size5);
+        @include formato-texto($color1,$font2,$font-size5);
     }
 }
 
