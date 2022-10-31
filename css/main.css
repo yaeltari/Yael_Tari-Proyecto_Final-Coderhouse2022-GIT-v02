@@ -336,12 +336,12 @@ template {
 .carousel-item h5 {
   color: #756c16;
   font-family: Caveat, cursive;
-  font-size: 5vw; }
+  font-size: 5vp; }
 
 .carousel-item p {
   color: rgba(231, 227, 227, 0.849);
   font-family: Raleway, sans-serif;
-  font-size: 1.5vw; }
+  font-size: 1.5vp; }
 
 #card-ayuda h5 {
   color: #756c16; }
@@ -353,24 +353,27 @@ template {
 label {
   color: #756c16;
   font-family: Raleway, sans-serif;
-  font-size: 1.5vw; }
+  font-size: 1.5vp; }
 
 footer h2 {
   color: #756c16;
   font-family: Raleway, sans-serif;
-  font-size: 3vw; }
+  font-size: 3vp; }
 
 footer h3 {
   color: #756c16;
   font-family: Raleway, sans-serif;
-  font-size: 2.8vw; }
+  font-size: 2.8vp; }
 
 footer p {
   color: rgba(231, 227, 227, 0.849);
   font-family: Oxygen, sans-serif;
-  font-size: 1vw; }
+  font-size: 1vp; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 275px) {
   /* Para que se entiendan mejor las secciones en el footer mobil*/
   .top-border-footer {
     border-top: dashed white; } }
+
+@media only screen and (max-width: 275px) {
+  /* Para que se entiendan mejor las secciones en el footer mobil*/ }
