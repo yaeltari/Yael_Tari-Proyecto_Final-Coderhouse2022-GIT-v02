@@ -366,6 +366,16 @@ template {
   color: #756c16;
   text-decoration: none; }
 
+.box-pie-comunidad h5 {
+  color: #756c16;
+  font-family: Oxygen, sans-serif;
+  font-size: 3vp; }
+
+.box-pie-comunidad p {
+  color: rgba(231, 227, 227, 0.849);
+  font-family: Oxygen, sans-serif;
+  font-size: 3vp; }
+
 label {
   color: #756c16;
   font-family: Raleway, sans-serif;
