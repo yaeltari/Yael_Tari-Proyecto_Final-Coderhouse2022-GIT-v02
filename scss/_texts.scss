@@ -37,7 +37,7 @@ footer {
         @include formato-texto($color2,$font3,$font-size5);
     }
     h3 {
-        @include formato-texto($color2,$font3,$font-size4);
+        @include formato-texto($color2,$font3,$font-size7);
     }
     p {
         @include formato-texto($color1,$font2,$font-size6);
