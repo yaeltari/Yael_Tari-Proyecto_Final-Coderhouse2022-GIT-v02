@@ -1,22 +1,32 @@
 
- @mixin formato-texto($color,$font-family,$font-size) {
+@mixin formato-texto($color,$font-family,$font-size) {
     color: $color;
     font-family: $font-family;
     font-size: $font-size;
- }
+}
+
+//no funciona este hover
+.navbar {
+    .navbar-nav {
+        .nav-item {
+            .nav-link:hover {
+                color: $color2;
+            }
+        }
+    }
+}
 
 
-
- .carousel-item {
+.carousel-item {
     h5 {
         @include formato-texto($color2,$font2,$font-size1);
     }
     p {
         @include formato-texto($color1,$font3,$font-size2);
     }
- }
+}
 
- .container-seccion {
+.container-seccion {
     h5 {
         @include formato-texto($color2,$font2,$font-size5);
     }
@@ -26,7 +36,7 @@
 }
 
 
- #card-ayuda {
+#card-ayuda {
     h5 {
         color: $color2;
     }
@@ -34,22 +44,22 @@
         color: $color2;
         text-decoration: none;
     }
- }
+}
 
- .box-pie-comunidad {
+.box-pie-comunidad {
     h5 {
         @include formato-texto($color2,$font2,$font-size5);
     }
     p {
         @include formato-texto($color1,$font2,$font-size5);
     }
- }
+}
 
 label {
     @include formato-texto($color2,$font3,$font-size2);
 }
 
- 
+
 footer {
     h2 {
         @include formato-texto($color2,$font3,$font-size5);
