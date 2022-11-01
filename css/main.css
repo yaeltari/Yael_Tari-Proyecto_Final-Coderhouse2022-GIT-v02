@@ -339,6 +339,9 @@ template {
 .tarjeta-basica p {
   font-family: Raleway, sans-serif; }
 
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #756c16; }
+
 .carousel-item h5 {
   color: #756c16;
   font-family: Oxygen, sans-serif;
