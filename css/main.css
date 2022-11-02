@@ -361,13 +361,25 @@ template {
   color: rgba(231, 227, 227, 0.849);
   font-family: Oxygen, sans-serif;
   font-size: 3vp; }
+  .container-seccion p small a {
+    color: #756c16;
+    text-decoration: none;
+    border: 1px solid #756c16;
+    padding: 6px; }
+  .container-seccion p small a:hover {
+    font-weight: bolder; }
 
 #card-ayuda h5 {
   color: #756c16; }
 
 #card-ayuda a {
   color: #756c16;
-  text-decoration: none; }
+  text-decoration: none;
+  border: 1px solid #756c16;
+  padding: 6px; }
+
+#card-ayuda a:hover {
+  font-weight: bolder; }
 
 .box-pie-comunidad h5 {
   color: #756c16;
