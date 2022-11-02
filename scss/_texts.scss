@@ -26,6 +26,7 @@
     }
 }
 
+// comiendo del problema con extend. Ver comentario al final
 .container-seccion {
     h5 {
         @include formato-texto($color2,$font2,$font-size5);
@@ -61,6 +62,8 @@
         font-weight: bolder;
     }
 }
+
+// Intenté aplicar @extend .container-seccion a;
 
 .box-pie-comunidad {
     h5 {
