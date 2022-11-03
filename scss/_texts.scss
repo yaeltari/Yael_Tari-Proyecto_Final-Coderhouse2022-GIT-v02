@@ -26,24 +26,23 @@
     }
 }
 
-// No puedo extender las propiedades de linea 37 a linea 55. Ver comentario de linea 59
 .container-seccion {
     h5 {
         @include formato-texto($color2,$font2,$font-size5);
     }
     p {
         @include formato-texto($color1,$font2,$font-size5);
-        small {
-            a {
-                color: $color2;
-                text-decoration: none;
-                border: 1px solid $color2;
-                padding: 6px;
-                &:hover {
-                font-weight: bolder;
-                }
-            }
-        }
+        
+    }
+}
+
+.mas-info {
+    color: $color2;
+    text-decoration: none;
+    border: 1px solid $color2;
+    padding: 6px;
+    &:hover {
+    font-weight: bolder;
     }
 }
 
@@ -52,11 +51,10 @@
         color: $color2;
     }
     a {
-        @extend .container-seccion p small a ;  
+        @extend .mas-info;
     }
 }
 
-// Intenté aplicar @extend .container-seccion p small a ; pero la consola me tira error en la linea 55 
 
 .box-pie-comunidad {
     h5 {
