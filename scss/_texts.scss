@@ -20,9 +20,11 @@
 .carousel-item {
     h5 {
         @include formato-texto($color2,$font2,$font-size1);
+        text-shadow: 2px -2px 2px $color3;
     }
     p {
         @include formato-texto($color1,$font3,$font-size2);
+        text-shadow: 1px -1px 1px $color3;
     }
 }
 
